@@ -13,7 +13,7 @@ If you are developing a production application, we recommend using TypeScript an
 
 ## Denpendencies 
 
- Features
+** Features**
 
 List some key features of your project
 
@@ -23,7 +23,7 @@ Responsive and modern UI
 
 Add more features here
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 
 Frontend: React, TailwindCSS, React Icons
 
