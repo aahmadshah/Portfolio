@@ -1,5 +1,8 @@
 
 @import "tailwindcss";
+
+
+
 :root {
   --color-brown: #53423e;
   --color-lightBrown: #645550;
@@ -15,6 +18,11 @@
   --color-grey: #626965;
   --color-lightGrey: #978580;
   --color-darkGrey: #3f4441;
+  /*Shadows */
+  --cyan-medium-shadow: 10px 10px 200px 150px rgba(94, 206, 202, 0.6);
+  --orange-medium-shadow: 10px 10px 200px 150px rgba(240, 169, 79, 0.5);
+
+
 }
 /* index.css or App.css */
 body {

@@ -1,5 +1,5 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 
 // https://vite.dev/config/
@@ -13,21 +13,14 @@ export default defineConfig({
           './src/**/*.{js,ts,jsx,tsx}',
         ],
         theme: {
-
           screens: {
-
             sm: '350px',
             md: '760px',
             lg: '1024px',
-            xl:'1280px',
-            '2xl':'1536px',
-
-
-
-
+            xl: '1280px',
+            '2xl': '1536px',
           },
           colors: {
-           
             brown: "#53423e",
             lightBrown: "#645550",
             darkBrown: "#2c2523",
@@ -46,12 +39,15 @@ export default defineConfig({
           extend: {
             fontFamily: {
               josefin: ['Josefin Sans', 'sans-serif'],
-              roboto: ['Roboto','sans-serif']
+              roboto: ['Roboto', 'sans-serif'],
+            },
+            boxShadow: {
+              cyanMediumShadow: '10px 10px 200px 150px rgba(94, 206, 202, 0.6)',
+              orangeMediumShadow: '10px 10px 200px 150px rgba(240, 169, 79, 0.5)',
             },
           },
         },
       },
     }),
   ],
-});
-
+})
