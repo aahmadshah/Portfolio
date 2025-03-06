@@ -13,9 +13,7 @@ If you are developing a production application, we recommend using TypeScript an
 
 ## Denpendencies 
 
-** Features**
-
-List some key features of your project
+**Features**
 
 Uses React 19 and TailwindCSS
 
