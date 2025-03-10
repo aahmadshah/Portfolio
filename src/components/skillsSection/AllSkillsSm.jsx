@@ -1,4 +1,6 @@
 import React from 'react'
+
+import React from 'react'
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
@@ -34,7 +36,7 @@ const skills = [{
     icon : TbAutomation ,
 },
 {
-    skill : 'Siemens TIA',
+    skill : 'Siemens',
     icon : SiSiemens ,
 },
 {
@@ -49,16 +51,10 @@ const skills = [{
 
 ]
 
-const AllSkills = () => {
+const AllSkillsSm = () => {
   return (
-    <div>
-        <div className='flex items-center justify-center relative gap-2 max-w-[1200px] mx-auto'>
-            {skills.map((item,index)=>{
-                return <SingleSkill key={index} text={item.skill} imgSvg={<item.icon/>}/>
-            })}
-        </div>
-    </div>
+    <div>AllSkillsSm</div>
   )
 }
 
-export default AllSkills
+export default AllSkillsSm

@@ -23,6 +23,8 @@
   --orange-medium-shadow: 10px 10px 200px 150px rgba(240, 169, 79, 0.5);
 
 
+
+
   
 
 }
@@ -40,4 +42,38 @@ body {
   
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Josefin Sans', sans-serif; /* Josefin Sans for headings */
+  }
+
+
+  @import "tailwindcss";
+
+  /* Custom Screens */
+  @media (min-width: 350px) {
+    .sm-screen {
+      font-size: 1rem; /* Equivalent to sm:text-xl */
+    }
+  }
+  
+  @media (min-width: 760px) {
+    .md-screen {
+      font-size: 1.25rem; /* Equivalent to md:text-2xl */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .lg-screen {
+      font-size: 1.5rem; /* Equivalent to lg:text-3xl */
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .xl-screen {
+      font-size: 1.75rem; /* Equivalent to xl:text-4xl */
+    }
+  }
+  
+  @media (min-width: 1536px) {
+    .xxl-screen {
+      font-size: 2rem; /* Equivalent to 2xl:text-5xl */
+    }
   }
