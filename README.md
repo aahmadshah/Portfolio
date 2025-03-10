@@ -27,9 +27,10 @@ Hello! I'm Ahmed Shah, an Automation Engineer and Full Stack Developer passionat
 
 - Control System
 
-💻 Full Stack Development
+## 💻 Full Stack Development
+-
 
-## Frontend:
+- Frontend:
 
 - React.js, Next.js
 
@@ -37,9 +38,9 @@ Hello! I'm Ahmed Shah, an Automation Engineer and Full Stack Developer passionat
 
 - JavaScript, TypeScript
 
-## Backend:
+- Backend:
 
-Node.js, Express.js
+-Node.js, Express.js
 
 Python (FastAPI, Flask )
 
