@@ -5,6 +5,8 @@ import HeroGradient from './components/heroSection/HeroGradient'
 import AboutMeMain from "./components/aboutMeSection/AboutMeMain"
 import HelperSection from "./components/HelperSection"
 import SkillsMain from "./components/skillsSection/SkillsMain"
+import ExperienceMain from "./components/experienceSection/ExperienceMain"
+import SubSkills from "./components/skillsSection/SubsSkills"
 
 
 
@@ -19,6 +21,8 @@ const App = () => {
       <SubHero/>
       <AboutMeMain/>
       <SkillsMain/>
+      <SubSkills/>
+      <ExperienceMain />
       <HelperSection/>
       
     </main>
